@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_change">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/tl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team Leader"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_round"/>
+
+        <Button
+            android:id="@+id/officer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/button_round"
+            android:text="Officer"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Head Officer"
+            android:textColor="#ffffff"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/button_round"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEDEF"
+    tools:context=".Choose">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/add_emp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Employee"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_round"/>
+
+    <Button
+        android:id="@+id/choose_branch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button_round"
+        android:text="Choose Branch"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/comp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compile Records"
+        android:textColor="#ffffff"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button_round"/>
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:textColor="#ffffff"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button_round"/>
+
+
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Log-Out"
+        android:onClick="logout"
+        android:layout_marginTop="40dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </LinearLayout>
+
+</ScrollView>
